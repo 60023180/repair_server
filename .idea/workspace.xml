@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="00d3f35a-ac96-4321-887e-c70bd352038f" name="Default Changelist" comment="" />
+    <list default="true" id="00d3f35a-ac96-4321-887e-c70bd352038f" name="Default Changelist" comment="i don't know" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,8 +79,16 @@
       <option name="presentableId" value="Default" />
       <updated>1594468635611</updated>
       <workItem from="1594468638464" duration="172000" />
-      <workItem from="1594471251280" duration="709000" />
+      <workItem from="1594471251280" duration="1040000" />
     </task>
+    <task id="LOCAL-00001" summary="i don't know">
+      <created>1594472284496</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1594472284496</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,6 +104,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="i don't know" />
+    <option name="LAST_COMMIT_MESSAGE" value="i don't know" />
   </component>
   <component name="WindowStateProjectService">
     <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1594468811539">
