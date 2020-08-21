@@ -19,11 +19,63 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="00d3f35a-ac96-4321-887e-c70bd352038f" name="Default Changelist" comment="i don't know" />
+    <list default="true" id="00d3f35a-ac96-4321-887e-c70bd352038f" name="Default Changelist" comment="i don't know">
+      <change afterPath="$PROJECT_DIR$/core/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/management/commands/createadminuser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/repair/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/repair/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/repair/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/repair/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/repair/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/repair/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/repair/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/repair/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/repair/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/repair/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/student/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/student/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/student/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/student/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/student/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/student/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/student/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/student/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/student/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/student/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/repair_server/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/repair_server/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/repair_server/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/repair_server/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -39,7 +91,13 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="E:/แนว/django-rest-framework" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunManager">
@@ -80,6 +138,7 @@
       <updated>1594468635611</updated>
       <workItem from="1594468638464" duration="172000" />
       <workItem from="1594471251280" duration="1040000" />
+      <workItem from="1597938524019" duration="23313000" />
     </task>
     <task id="LOCAL-00001" summary="i don't know">
       <created>1594472284496</created>
@@ -92,14 +151,16 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -110,25 +171,52 @@
     <option name="LAST_COMMIT_MESSAGE" value="i don't know" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1594468811539">
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597944245583">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594468811539" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1594468811539">
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1597944245583" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1597970995840">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1594468811539" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1594468811539">
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1597970995840" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1597954724456">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1594468811539" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1594468811539">
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1597954724456" />
+    <state width="1493" height="330" key="GridCell.Tab.0.bottom" timestamp="1597953890952">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1594468811539" />
+    <state width="1493" height="330" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597953890952" />
+    <state width="1493" height="330" key="GridCell.Tab.0.center" timestamp="1597953890951">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="330" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1597953890951" />
+    <state width="1493" height="330" key="GridCell.Tab.0.left" timestamp="1597953890951">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="330" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1597953890951" />
+    <state width="1493" height="330" key="GridCell.Tab.0.right" timestamp="1597953890951">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="330" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1597953890951" />
+    <state x="310" y="124" width="1107" height="630" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1597970230947">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="310" y="124" width="1107" height="630" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1597970230947" />
     <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1594471040974">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1594471040974" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/repair_server/wsgi.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
