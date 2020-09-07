@@ -10,7 +10,7 @@ class UserProfile(models.Model):
     full_name = models.CharField(max_length=250)
     board = models.CharField(max_length=225)
     branch = models.CharField(max_length=225)
-    dormitory = models.CharField(max_length=10)
+    dormitory_number = models.CharField(max_length=10)
     Room_number = models.CharField(max_length=5)
 
 

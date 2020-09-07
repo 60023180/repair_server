@@ -52,7 +52,7 @@ LOCAL_APPS = [
     # local app
     'core',
     'repair',
-    'student',
+
 ]
 
 INSTALLED_APPS += LOCAL_APPS
