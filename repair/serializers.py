@@ -1,16 +1,40 @@
-from repair import models
 from rest_framework import serializers
+from .models import Repair, RepairType, Room, RoomType, RepairStatus, Dormitory
 
 
 class RepairSerializer(serializers.ModelSerializer):
     class Meta:
-        fields = '__all__'
-        model = models.Repair
+        model = Repair
+        fields = ['repair_id', 'name', 'board', 'dormitory',
+                  'room_number', 'day', 'phone_number',
+                  'detail_problem', 'image']
 
-    def update(self, instance, validated_data):
-        instance.name = validated_data.get('name', instance.name)
-        instance.teacher_name = validated_data.get('teacher_name', instance.teacher_name)
-        instance.status = validated_data.get('status', instance.status)
-        instance.save()
 
-        return instance
+class RoomSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Room
+        fields = ['room_number']
+
+
+class RoomTypeSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = RoomType
+        fields = ['room_type_name']
+
+
+class RepairStatusSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = RepairStatus
+        fields = ['status_name']
+
+
+class RepairTypeSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = RepairType
+        fields = ['repair_type_name']
+
+
+class DormitorySerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Dormitory
+        fields = ['dormitory_name']

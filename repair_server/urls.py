@@ -15,24 +15,20 @@ Including another URLconf
 """
 
 from django.contrib import admin
-from django.urls import path,include
-# from course import views as c_views
+from django.urls import path, include
+from rest_framework import routers
+from repair import views
 
-api_urlpatterns = [
-    path('core/', include('core.urls')),
-    # path('student/', include('student.urls')),
-    # path('course-no-paginate/', c_views.CourseListAPIView.as_view()),
+router = routers.SimpleRouter()
 
-]
+router.register('Repair', views.RepairViewSet)
+router.register('RepairType', views.RepairTypeViewSet)
+router.register('Room', views.RoomViewSet)
+router.register('RoomType', views.RoomTypeViewSet)
+router.register('RepairStatus', views.RepairStatusViewSet)
+router.register('Dormitory', views.DormitoryViewSet)
+
 urlpatterns = [
-    # django
+    path('api/', include(router.urls)),
     path('admin/', admin.site.urls),
-
-    # third party
-    path('api-auth/', include('rest_framework.urls')),
-    path('rest-auth/', include('rest_auth.urls')),
-    path('rest-auth/registration/', include('rest_auth.registration.urls')),
-
-    path('api/v1/', include(api_urlpatterns))
-
 ]
