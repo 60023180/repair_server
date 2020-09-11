@@ -1,10 +1,28 @@
 "# repair_server" 
 ```
+สำหรับ หลังบ้าน
+------------------------------------------
 virtualenv env
-.\env\Scripts\activate
+
+.\env\Script\activate สลับมาใช้ (env)
+
 pip install -r requirements.txt
-python manage.py makemigrations
-python manage.py migrate
-python manage.py createsuperuser
-python manage.py runserver
+
+------------------------------------------
+
+python manage.py makemigrations สร้างไฟล์ที่จะเขียนฐานข้อมูล (ทำทุกครั้งที่มีการเปลี่ยนแปลงไฟล์ โมเดล)
+python manage.py migrate อัพเดทฐานข้อมูล --- ทำต่อจากขั้นตอนมะกี่ทุกครั้ง 
+python manage.py createsuperuser  สร้างแอดมิน
+python manage.py runserver เปิดโปรเจคฝั่งหลังบ้าน
+
+------------------------------------------
+อัปเข้า github
+git add .
+git commit -m "Commit"
+git push
+------------------------------------------
+อัปลงคอม
+git pull
+------------------------------------------
+git clone ...      ...
 ```
